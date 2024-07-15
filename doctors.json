@@ -1,0 +1,54 @@
+{
+    "doctors": [
+        {
+            "name": "Dr. John Smith",
+            "specialty": ["General Medicine"],
+            "rating": 4.5,
+            "address": "123 Health Street",
+            "contact": {
+                "phone": "+1234567890",
+                "email": "dr.john.smith@example.com"
+            }
+        },
+        {
+            "name": "Dr. Jane Doe",
+            "specialty": ["Cardiology"],
+            "rating": 4.7,
+            "address": "456 Heart Avenue",
+            "contact": {
+                "phone": "+1234567891",
+                "email": "dr.jane.doe@example.com"
+            }
+        },
+        {
+            "name": "Dr. Emily Johnson",
+            "specialty": ["Dermatology"],
+            "rating": 4.6,
+            "address": "789 Skin Lane",
+            "contact": {
+                "phone": "+1234567892",
+                "email": "dr.emily.johnson@example.com"
+            }
+        },
+        {
+            "name": "Dr. Michael Brown",
+            "specialty": ["Neurology"],
+            "rating": 4.8,
+            "address": "101 Brain Road",
+            "contact": {
+                "phone": "+1234567893",
+                "email": "dr.michael.brown@example.com"
+            }
+        },
+        {
+            "name": "Dr. Sarah Davis",
+            "specialty": ["Pediatrics"],
+            "rating": 4.9,
+            "address": "202 Children Blvd",
+            "contact": {
+                "phone": "+1234567894",
+                "email": "dr.sarah.davis@example.com"
+            }
+        }
+    ]
+}

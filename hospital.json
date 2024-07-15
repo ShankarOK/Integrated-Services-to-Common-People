@@ -1,0 +1,245 @@
+{
+  "city": "Metropolis",
+  "hospitals": [
+    {
+      "name": "City General Hospital",
+      "address": "123 Main Street",
+      "specialties": [
+        "General Medicine",
+        "Cardiology",
+        "Orthopedics"
+      ],
+      "rating": 4.5,
+      "insurance_accepted": true,
+      "emergency_services": true,
+      "contact": {
+        "phone": "+1234567890",
+        "email": "info@citygeneralhospital.com"
+      }
+    },
+    {
+      "name": "Metropolis Children's Hospital",
+      "address": "456 Elm Avenue",
+      "specialties": [
+        "Pediatrics",
+        "Neonatology",
+        "Pediatric Surgery"
+      ],
+      "rating": 4.8,
+      "insurance_accepted": true,
+      "emergency_services": true,
+      "contact": {
+        "phone": "+1234567891",
+        "email": "info@metropoliskids.com"
+      }
+    },
+    {
+      "name": "Metropolis Regional Medical Center",
+      "address": "789 Oak Boulevard",
+      "specialties": [
+        "Oncology",
+        "Neurology",
+        "Radiology"
+      ],
+      "rating": 4.3,
+      "insurance_accepted": true,
+      "emergency_services": true,
+      "contact": {
+        "phone": "+1234567892",
+        "email": "info@regionalmedicalcenter.com"
+      }
+    },
+    {
+      "name": "Downtown Medical Clinic",
+      "address": "321 Maple Lane",
+      "specialties": [
+        "Family Medicine",
+        "Dermatology",
+        "ENT"
+      ],
+      "rating": 4.0,
+      "insurance_accepted": true,
+      "emergency_services": false,
+      "contact": {
+        "phone": "+1234567893",
+        "email": "info@downtownclinic.com"
+      }
+    },
+    {
+      "name": "Westside Community Hospital",
+      "address": "567 Pine Street",
+      "specialties": [
+        "Geriatrics",
+        "Pulmonology",
+        "Gastroenterology"
+      ],
+      "rating": 4.6,
+      "insurance_accepted": true,
+      "emergency_services": true,
+      "contact": {
+        "phone": "+1234567894",
+        "email": "info@westsidehospital.com"
+      }
+    },
+    {
+      "name": "University Medical Center",
+      "address": "890 Cedar Avenue",
+      "specialties": [
+        "Internal Medicine",
+        "Endocrinology",
+        "Nephrology"
+      ],
+      "rating": 4.7,
+      "insurance_accepted": true,
+      "emergency_services": true,
+      "contact": {
+        "phone": "+1234567895",
+        "email": "info@universitymedcenter.com"
+      }
+    },
+    {
+      "name": "Central Surgical Institute",
+      "address": "432 Oak Street",
+      "specialties": [
+        "Surgery",
+        "Plastic Surgery",
+        "Urology"
+      ],
+      "rating": 4.2,
+      "insurance_accepted": true,
+      "emergency_services": false,
+      "contact": {
+        "phone": "+1234567896",
+        "email": "info@centralsurgical.com"
+      }
+    },
+    {
+      "name": "East End Clinic",
+      "address": "654 Elm Street",
+      "specialties": [
+        "Primary Care",
+        "Sports Medicine",
+        "Physical Therapy"
+      ],
+      "rating": 4.4,
+      "insurance_accepted": true,
+      "emergency_services": false,
+      "contact": {
+        "phone": "+1234567897",
+        "email": "info@eastendclinic.com"
+      }
+    },
+    {
+      "name": "Northern Pediatrics Hospital",
+      "address": "876 Birch Avenue",
+      "specialties": [
+        "Pediatric Oncology",
+        "Pediatric Neurology",
+        "Pediatric Cardiology"
+      ],
+      "rating": 4.9,
+      "insurance_accepted": true,
+      "emergency_services": true,
+      "contact": {
+        "phone": "+1234567898",
+        "email": "info@northernpediatrics.com"
+      }
+    },
+    {
+      "name": "Southside Rehabilitation Center",
+      "address": "210 Maple Avenue",
+      "specialties": [
+        "Rehabilitation",
+        "Occupational Therapy",
+        "Speech Therapy"
+      ],
+      "rating": 4.1,
+      "insurance_accepted": true,
+      "emergency_services": false,
+      "contact": {
+        "phone": "+1234567899",
+        "email": "info@southsiderehab.com"
+      }
+    },
+    {
+      "name": "Veterans Memorial Hospital",
+      "address": "543 Walnut Street",
+      "specialties": [
+        "Veterans Health Services",
+        "Psychiatry",
+        "Addiction Medicine"
+      ],
+      "rating": 4.5,
+      "insurance_accepted": true,
+      "emergency_services": true,
+      "contact": {
+        "phone": "+1234567800",
+        "email": "info@veteranshospital.com"
+      }
+    },
+    {
+      "name": "Women's Health Center",
+      "address": "789 Pine Lane",
+      "specialties": [
+        "Obstetrics",
+        "Gynecology",
+        "Maternal-Fetal Medicine"
+      ],
+      "rating": 4.6,
+      "insurance_accepted": true,
+      "emergency_services": false,
+      "contact": {
+        "phone": "+1234567801",
+        "email": "info@womenshealthcenter.com"
+      }
+    },
+    {
+      "name": "Tech Valley Medical Institute",
+      "address": "345 Cedar Street",
+      "specialties": [
+        "Biotechnology",
+        "Medical Research",
+        "Clinical Trials"
+      ],
+      "rating": 4.3,
+      "insurance_accepted": true,
+      "emergency_services": false,
+      "contact": {
+        "phone": "+1234567802",
+        "email": "info@techvalleymedical.com"
+      }
+    },
+    {
+      "name": "Sunset Behavioral Health Center",
+      "address": "678 Elm Lane",
+      "specialties": [
+        "Psychology",
+        "Counseling",
+        "Behavioral Therapy"
+      ],
+      "rating": 4.7,
+      "insurance_accepted": true,
+      "emergency_services": false,
+      "contact": {
+        "phone": "+1234567803",
+        "email": "info@sunsetbehavioral.com"
+      }
+    },
+    {
+      "name": "Golden Age Senior Care Facility",
+      "address": "987 Oak Street",
+      "specialties": [
+        "Geriatric Medicine",
+        "Alzheimer's Care",
+        "Assisted Living"
+      ],
+      "rating": 4.4,
+      "insurance_accepted": true,
+      "emergency_services": false,
+      "contact": {
+        "phone": "+1234567804",
+        "email": "info@goldenageseniorcare.com"
+      }
+    }
+  ]
+}

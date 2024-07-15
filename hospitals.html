@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospitals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Hospitals</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="health.html">Health Services</a></li>
+                    <li><a href="education.html">Education Services</a></li>
+                    <li><a href="transportation.html">Transportation Services</a></li>
+                    <li><a href="finance.html">Finance Services</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="main-content">
+        <div class="container">
+            <h2>Hospitals in Metropolis</h2>
+            <div id="hospital-list" class="icon-list">
+                <!-- Hospitals will be dynamically added here -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Integrated Services App. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript to fetch and display hospital data -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Fetch hospital data from JSON file
+            fetch('hospital.json')
+                .then(response => response.json())
+                .then(data => {
+                    const hospitalList = document.getElementById('hospital-list');
+
+                    // Clear previous hospital entries
+                    hospitalList.innerHTML = '';
+
+                    // Iterate over each hospital in the JSON data
+                    data.hospitals.forEach(hospital => {
+                        // Create HTML elements for each hospital
+                        const hospitalDiv = document.createElement('div');
+                        hospitalDiv.classList.add('service');
+                        hospitalDiv.classList.add('health'); // Apply health service style
+                        hospitalDiv.innerHTML = `
+                            <h3>${hospital.name}</h3>
+                            <p><strong>Specialties:</strong> ${hospital.specialties.join(', ')}</p>
+                            <p><strong>Rating:</strong> ${hospital.rating}/5</p>
+                            <p><strong>Address:</strong> ${hospital.address}</p>
+                            <p><strong>Contact:</strong> ${hospital.contact.phone}</p>
+                        `;
+                        hospitalList.appendChild(hospitalDiv);
+                    });
+                })
+                .catch(error => console.error('Error fetching hospital data:', error));
+        });
+    </script>
+</body>
+</html>

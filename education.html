@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Education Services</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="health.html">Health Services</a></li>
+                    <li><a href="education.html">Education Services</a></li>
+                    <li><a href="transportation.html">Transportation Services</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="main-content">
+        <div class="container">
+            <section class="service-category">
+                <h3>Services</h3>
+                <div class="icon-container">
+                    <div class="icon" id="courses">
+                        <i class="fas fa-laptop-code"></i>
+                        <p>Online Courses</p>
+                    </div>
+                    <div class="icon" id="resources">
+                        <i class="fas fa-book"></i>
+                        <p>Resources</p>
+                    </div>
+                    <div class="icon" id="tutors">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <p>Find a Tutor</p>
+                    </div>
+                    <div class="icon" id="institutions">
+                        <i class="fas fa-university"></i>
+                        <p>Institutions</p>
+                    </div>
+                    <div class="icon" id="hospitals">
+                        <i class="fas fa-hospital"></i>
+                        <p>Hospitals</p>
+                    </div>
+                    <div class="icon" id="transportation">
+                        <i class="fas fa-bus"></i>
+                        <p>Transportation</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <!-- Modals for additional functionalities -->
+    <div id="modalCourses" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modalCourses">&times;</span>
+            <h2>Online Courses</h2>
+            <ul id="modalCoursesList"></ul>
+        </div>
+    </div>
+
+    <div id="modalResources" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modalResources">&times;</span>
+            <h2>Resources</h2>
+            <ul id="modalResourcesList"></ul>
+        </div>
+    </div>
+
+    <div id="modalTutors" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modalTutors">&times;</span>
+            <h2>Find a Tutor</h2>
+            <input type="text" id="tutor-search" placeholder="Search for tutors...">
+            <ul id="modalTutorsList"></ul>
+        </div>
+    </div>
+
+    <div id="modalInstitutions" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modalInstitutions">&times;</span>
+            <h2>Institutions</h2>
+            <ul id="modalInstitutionsList"></ul>
+        </div>
+    </div>
+
+    <div id="modalHospitals" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modalHospitals">&times;</span>
+            <h2>Hospitals</h2>
+            <ul id="modalHospitalsList"></ul>
+        </div>
+    </div>
+
+    <div id="modalTransportation" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modalTransportation">&times;</span>
+            <h2>Transportation</h2>
+            <ul id="modalTransportationList"></ul>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Integrated Services App. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

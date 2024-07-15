@@ -1,0 +1,68 @@
+{
+    "courses": [
+        {
+            "title": "Introduction to Programming",
+            "description": "Learn the basics of programming using Python."
+        },
+        {
+            "title": "Web Development",
+            "description": "Build modern web applications using HTML, CSS, and JavaScript."
+        }
+    ],
+    "resources": [
+        {
+            "title": "Mathematics Textbook",
+            "description": "Comprehensive guide to high school mathematics."
+        },
+        {
+            "title": "Physics Notes",
+            "description": "Detailed notes on fundamental physics concepts."
+        }
+    ],
+    "tutors": [
+        {
+            "name": "John Doe",
+            "subject": "Mathematics"
+        },
+        {
+            "name": "Jane Smith",
+            "subject": "Physics"
+        }
+    ],
+    "institutions": [
+        {
+            "name": "XYZ University",
+            "address": "123 Main St, City, Country",
+            "status": "Open"
+        },
+        {
+            "name": "ABC College",
+            "address": "456 Elm St, City, Country",
+            "status": "Closed"
+        }
+    ],
+    "hospitals": [
+        {
+            "name": "General Hospital",
+            "address": "789 Oak St, City, Country",
+            "status": "Open"
+        },
+        {
+            "name": "City Hospital",
+            "address": "101 Pine St, City, Country",
+            "status": "Open"
+        }
+    ],
+    "transportation": [
+        {
+            "name": "Central Bus Station",
+            "address": "111 Maple St, City, Country",
+            "status": "Operational"
+        },
+        {
+            "name": "Main Train Station",
+            "address": "222 Cedar St, City, Country",
+            "status": "Under Maintenance"
+        }
+    ]
+}
